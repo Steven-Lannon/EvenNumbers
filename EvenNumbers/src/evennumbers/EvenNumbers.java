@@ -11,8 +11,11 @@ public class EvenNumbers {
      */
     
     public static void main(String[] args) {
-        for(int i=0;  i<=100;  i++){
-         if (i % 2 != 0) {
+        //loop for number from 0-100
+        for(int i=0;  i<=100;  i++){ 
+        //nested if for even numbers
+         if (i % 2 == 0) {
+        //print out all even numbers
 		System.out.println(" " + i);
 	   }
       
